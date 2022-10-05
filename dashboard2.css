@@ -1,3 +1,7 @@
+/* now playing carousel */
+/* footer */
+
+
 /* .wrapper{
  
   padding: 0;
@@ -143,26 +147,37 @@ it should always be at the center of the browser */
   
   /* external css: flickity.css */
 
+  /* now playing carousel  */
+  
+
 
 
 
 .gallery {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+ 
+    align-items: center;
   }
   
   body { font-family: sans-serif; }
   
   .gallery {
-    background: #EEE;
+    background: #ffe57c ;
+    
   }
   
   .gallery-cell {
-    width: 450px;
-    height: 300px;
-    margin-right: 10px;
+    width: auto;
+    height: 400px;
+    margin-right: 0px;
     background: #8C8;
     counter-increment: gallery-cell;
+    border-radius: 20px;
+    margin: 8px;
+    
+
+   
   }
   
   /* cell number */
@@ -170,9 +185,13 @@ it should always be at the center of the browser */
     display: block;
     text-align: center;
     content: counter(gallery-cell);
-    line-height: 200px;
-    font-size: 80px;
+    line-height: 0px;
+    font-size: 0px;
     color: white;
+  }
+  .movimg{
+    height: 100%;
+    border-radius: 20px;
   }
   
   

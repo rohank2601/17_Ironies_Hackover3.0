@@ -1,3 +1,8 @@
+
+/* nav bar and genre */
+
+
+
 * {
     box-sizing: border-box;
   }
@@ -271,7 +276,7 @@ font-size: 30px;
      width: 30%;
      border-top-right-radius: 5px;
      border-top-left-radius: 5px;
-    margin-left: 80px;
+    margin-left: 95px;
     margin-top: 40px;
      
    
@@ -301,11 +306,13 @@ font-size: 30px;
      border-bottom-left-radius: 5px;
    }
    button{
-     margin-top: 20px;
+    
      margin-bottom: 10px;
      background-color: #ffe57c;
      border: 1px solid black;
      border-radius: 5px;
+     height: 40px;
+     
     
    }
    button:hover{
@@ -336,3 +343,6 @@ font-size: 30px;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+
+
+ 
